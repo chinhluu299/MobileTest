@@ -1,3 +1,3 @@
 # Testing project by Appium
-### Langague use: Java
+### Language use: Java
 ### Platform: Android
