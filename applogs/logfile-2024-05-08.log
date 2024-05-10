@@ -1,0 +1,60 @@
+[INFO ] 08-05-2024 09:46:34 [main] Log - Running test case syncModelTest
+[ERROR] 08-05-2024 09:46:34 [main] Log - Exception while taking screenshot null
+[ERROR] 08-05-2024 09:46:34 [main] Log - Test case syncModelTest is skipped.
+[ERROR] 08-05-2024 09:46:34 [main] Log - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'Chinhs-MacBook-Pro.local', ip: 'fe80:0:0:0:10fc:cc8f:4e40:5a40%en0'
+[INFO ] 08-05-2024 09:46:35 [main] Log - End testing TestNGTest-21e72098-0121-4768-b85f-ad8faabd92e0
+[INFO ] 08-05-2024 09:50:07 [main] Log - Running test case syncModelTest
+[INFO ] 08-05-2024 09:50:08 [main] Log - Running test case syncModelTest
+[ERROR] 08-05-2024 09:50:08 [main] Log - Exception while taking screenshot null
+[ERROR] 08-05-2024 09:50:08 [main] Log - Test case syncModelTest is skipped.
+[ERROR] 08-05-2024 09:50:08 [main] Log - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'Chinhs-MacBook-Pro.local', ip: 'fe80:0:0:0:10fc:cc8f:4e40:5a40%en0'
+[INFO ] 08-05-2024 09:50:08 [main] Log - End testing TestNGTest-1993b7a7-0d5a-459b-b193-521e5054dd23
+[ERROR] 08-05-2024 09:50:08 [main] Log - Exception while taking screenshot null
+[ERROR] 08-05-2024 09:50:08 [main] Log - Test case syncModelTest is skipped.
+[ERROR] 08-05-2024 09:50:08 [main] Log - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'Chinhs-MacBook-Pro.local', ip: 'fe80:0:0:0:10fc:cc8f:4e40:5a40%en0'
+[INFO ] 08-05-2024 09:50:08 [main] Log - End testing TestNGTest-254c4a4a-fcd4-487a-bf64-ce513508725a
+[INFO ] 08-05-2024 09:57:08 [main] Log - Running test case TestCase
+[ERROR] 08-05-2024 09:57:08 [main] Log - Exception while taking screenshot null
+[ERROR] 08-05-2024 09:57:08 [main] Log - Test case TestCase is skipped.
+[ERROR] 08-05-2024 09:57:08 [main] Log - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'Chinhs-MacBook-Pro.local', ip: 'fe80:0:0:0:10fc:cc8f:4e40:5a40%en0'
+[INFO ] 08-05-2024 09:57:08 [main] Log - Running test case activateTest
+[ERROR] 08-05-2024 09:57:08 [main] Log - Exception while taking screenshot null
+[ERROR] 08-05-2024 09:57:08 [main] Log - Test case activateTest is skipped.
+[ERROR] 08-05-2024 09:57:08 [main] Log - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'Chinhs-MacBook-Pro.local', ip: 'fe80:0:0:0:10fc:cc8f:4e40:5a40%en0'
+[INFO ] 08-05-2024 09:57:08 [main] Log - Running test case loginTest
+[ERROR] 08-05-2024 09:57:08 [main] Log - Exception while taking screenshot null
+[ERROR] 08-05-2024 09:57:08 [main] Log - Test case loginTest is skipped.
+[ERROR] 08-05-2024 09:57:08 [main] Log - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'Chinhs-MacBook-Pro.local', ip: 'fe80:0:0:0:10fc:cc8f:4e40:5a40%en0'
+[INFO ] 08-05-2024 09:57:08 [main] Log - Running test case syncModelTest
+[ERROR] 08-05-2024 09:57:08 [main] Log - Exception while taking screenshot null
+[ERROR] 08-05-2024 09:57:08 [main] Log - Test case syncModelTest is skipped.
+[ERROR] 08-05-2024 09:57:08 [main] Log - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'Chinhs-MacBook-Pro.local', ip: 'fe80:0:0:0:10fc:cc8f:4e40:5a40%en0'
+[INFO ] 08-05-2024 09:57:08 [main] Log - Running test case testExample
+[ERROR] 08-05-2024 09:57:08 [main] Log - Exception while taking screenshot null
+[ERROR] 08-05-2024 09:57:08 [main] Log - Test case testExample is skipped.
+[ERROR] 08-05-2024 09:57:08 [main] Log - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'Chinhs-MacBook-Pro.local', ip: 'fe80:0:0:0:10fc:cc8f:4e40:5a40%en0'
+[INFO ] 08-05-2024 09:57:08 [main] Log - End testing TestNGTest-aa209591-539b-4188-a36a-40e6d0430e60
+[INFO ] 08-05-2024 11:09:33 [main] Log - Running test case loginTest
+[ERROR] 08-05-2024 11:09:33 [main] Log - Exception while taking screenshot null
+[ERROR] 08-05-2024 11:09:33 [main] Log - Test case loginTest is skipped.
+[ERROR] 08-05-2024 11:09:33 [main] Log - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20000ms 
+Host info: host: 'Chinhs-MacBook-Pro.local', ip: 'fe80:0:0:0:10fc:cc8f:4e40:5a40%en0'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '12.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {appium:appActivity: com.tns.NativeScriptActivity, appium:appPackage: pocketv.datavtech.application, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:noReset: true, appium:platformVersion: 14, appium:udid: emulator-5554, platformName: ANDROID}, capabilities=[{appium:noReset=true, appium:udid=emulator-5554, appium:appActivity=com.tns.NativeScriptActivity, appium:deviceName=emulator-5554, appium:automationName=UiAutomator2, appium:platformVersion=14, platformName=ANDROID, appium:appPackage=pocketv.datavtech.application}]}]
+Capabilities {appium:appActivity: com.tns.NativeScriptActivity, appium:appPackage: pocketv.datavtech.application, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:noReset: true, appium:platformVersion: 14, appium:udid: emulator-5554, platformName: ANDROID}
+[INFO ] 08-05-2024 11:09:33 [main] Log - End testing TestNGTest-ec3473d2-cdb7-40f9-90ae-e0f7fbe86e6f
+[INFO ] 08-05-2024 11:13:50 [main] Log - Start record at: 11-13-49 08-05-2024
+[INFO ] 08-05-2024 11:13:50 [main] Log - Running test case loginTest
+[ERROR] 08-05-2024 11:14:34 [main] Log - Test case loginTest is failed.
+[INFO ] 08-05-2024 11:14:37 [main] Log - Screenshot success: failure at 11-14-37 08-05-2024
+[ERROR] 08-05-2024 11:14:37 [main] Log - org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.all({By.xpath: //android.widget.EditText[@text="UserName"],By.xpath: //android.widget.EditText[@text="Tên Đăng Nhập"]})

@@ -1,0 +1,2 @@
+public class mobile {
+}
