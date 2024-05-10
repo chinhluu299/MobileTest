@@ -31,13 +31,13 @@ public class TestGesture {
   
   public static void scrollById(String accessID){
     // ((AppiumDriver) DriverManager.getDriver()).findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().accessibilityId(\""+accessID+"\").instance(0));")); 
-    while (true) {
+    for(int i =0; i< 10; i++) {
         try {
-            scroll(ScrollDirection.DOWN, 0.1);
-            Thread.sleep(300);
             if(PageUtils.isElementPresent(AppiumBy.accessibilityId(accessID))){
                 break;
             }
+            scroll(ScrollDirection.DOWN, 0.2);
+            Thread.sleep(200);
         } catch (Exception e) {
             break;
         }

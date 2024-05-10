@@ -70,7 +70,7 @@ public class mobileTests extends BaseTest{
         // WebDriver driver = (AppiumDriver) DriverManager.getDriver();
         // WebElement el4 = driver.findElement(AppiumBy.accessibilityId("milestone"));
         // el4.click();
-        TestGesture.scrollById("fullEmp");
+        TestGesture.scrollById("haah");
         WebElement el5 = getDriver().findElement(AppiumBy.accessibilityId("fullEmp"));
         el5.click();
         //PageUtils.goBackToHomeScreen();
