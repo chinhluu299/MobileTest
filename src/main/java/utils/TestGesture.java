@@ -16,6 +16,7 @@ import org.openqa.selenium.interactions.Sequence;
 import com.google.common.collect.ImmutableList;
 
 import driver.DriverManager;
+import utils.PageUtils;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
 import net.bytebuddy.implementation.bind.MethodDelegationBinder.AmbiguityResolver.Directional;
@@ -33,15 +34,14 @@ public class TestGesture {
     while (true) {
         try {
             scroll(ScrollDirection.DOWN, 0.1);
-            Thread.sleep(1000);
-            if((AppiumDriver) DriverManager.getDriver().findElement(AppiumBy.accessibilityId(accessID)) != null){
+            Thread.sleep(300);
+            if(PageUtils.isElementPresent(AppiumBy.accessibilityId(accessID))){
                 break;
             }
         } catch (Exception e) {
             break;
         }
     }
-
   }
 
   public static void scroll(ScrollDirection dir, double scrollRatio) {

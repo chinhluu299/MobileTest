@@ -15,8 +15,9 @@ import pages.Settings.ActivatePage;
 import pages.Settings.SettingPage;
 import pages.Settings.SyncModelPage;
 import utils.TestGesture.ScrollDirection;
+import utils.PageUtils;
 import utils.TestGesture;
-
+import static driver.DriverManager.getDriver;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;
@@ -66,11 +67,14 @@ public class mobileTests extends BaseTest{
 
     @Test
     public void TestCase() throws InterruptedException{
-        WebDriver driver = (AppiumDriver) DriverManager.getDriver();
-        WebElement el4 = driver.findElement(AppiumBy.accessibilityId("milestone"));
-        el4.click();
-        TestGesture.scrollById("complete");
-        WebElement el5 = driver.findElement(AppiumBy.accessibilityId("complete"));
+        // WebDriver driver = (AppiumDriver) DriverManager.getDriver();
+        // WebElement el4 = driver.findElement(AppiumBy.accessibilityId("milestone"));
+        // el4.click();
+        TestGesture.scrollById("fullEmp");
+        WebElement el5 = getDriver().findElement(AppiumBy.accessibilityId("fullEmp"));
         el5.click();
+        //PageUtils.goBackToHomeScreen();
+        
+        
     }
 }

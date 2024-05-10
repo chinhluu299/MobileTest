@@ -32,7 +32,7 @@ public final class DriverManager {
         if(Objects.isNull(getDriver())){
             String modeValue = PropertyUtils.getValue("mode");
             WebDriver driver = DriverFactory.get(Modes.valueOf(modeValue.toUpperCase()), deviceName,port);
-            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
             setDriver(driver);
         }
     }
