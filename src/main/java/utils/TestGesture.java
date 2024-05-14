@@ -36,7 +36,7 @@ public class TestGesture {
             if(PageUtils.isElementPresent(AppiumBy.accessibilityId(accessID))){
                 break;
             }
-            scroll(ScrollDirection.DOWN, 0.2);
+            scroll(ScrollDirection.DOWN, 0.3);
             Thread.sleep(200);
         } catch (Exception e) {
             break;
