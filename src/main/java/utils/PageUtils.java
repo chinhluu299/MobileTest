@@ -28,12 +28,29 @@ public class PageUtils {
         Thread.sleep(200);
     }
     
-    public void explicitWait(WebElement element){
-        new WebDriverWait(DriverManager.getDriver(),Duration.ofSeconds(5))
+    public static WebElement explicitWait(By by, int sc){
+        new WebDriverWait(DriverManager.getDriver(),Duration.ofSeconds(sc))
                 .withMessage(()->"Some problems while find element")
                 .pollingEvery(Duration.ofSeconds(1))
-                .until(ExpectedConditions.visibilityOf(element));
+                .until(ExpectedConditions.visibilityOfElementLocated(by));
+        return getDriver().findElement(by);
     }
+
+    public static WebElement findElement(By by){
+          new WebDriverWait(DriverManager.getDriver(),Duration.ofSeconds(3))
+                .withMessage(()->"Some problems while find element")
+                .pollingEvery(Duration.ofSeconds(1))
+                .until(ExpectedConditions.visibilityOfElementLocated(by));
+        return getDriver().findElement(by);
+    }
+    public static WebElement findElement(By by, int seconds){
+          new WebDriverWait(DriverManager.getDriver(),Duration.ofSeconds(seconds))
+                .withMessage(()->"Some problems while find element")
+                .pollingEvery(Duration.ofSeconds(1))
+                .until(ExpectedConditions.visibilityOfElementLocated(by));
+        return getDriver().findElement(by);
+    }
+
     public boolean checkToastMessageIsCorrect(String assertMessage, String testName){
         try{
             WebElement toastMessage = getDriver().findElement(AppiumBy.xpath("//android.widget.Toast"));

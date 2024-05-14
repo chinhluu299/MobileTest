@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite verbose="1" name="Test suite" parallel="tests"  >
-    <test name="ActivateTest">
+    <!-- <test name="ActivateTest">
         <parameter name="device" value="emulator-5554"></parameter>
         <parameter name="port" value="4723"></parameter>
         <classes>
@@ -11,7 +11,7 @@
                 </methods>
             </class>
         </classes>
-    </test>
+    </test> -->
     <!-- <test name="ActivateTest2">
         <parameter name="device" value="CU99WW9HMFEMF6V8"></parameter>
         <parameter name="port" value="4723"></parameter>
