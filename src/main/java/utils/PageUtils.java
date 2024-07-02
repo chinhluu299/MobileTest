@@ -37,12 +37,13 @@ public class PageUtils {
     }
 
     public static WebElement findElement(By by){
-          new WebDriverWait(DriverManager.getDriver(),Duration.ofSeconds(3))
+        new WebDriverWait(DriverManager.getDriver(),Duration.ofSeconds(10))
                 .withMessage(()->"Some problems while find element")
                 .pollingEvery(Duration.ofSeconds(1))
                 .until(ExpectedConditions.visibilityOfElementLocated(by));
         return getDriver().findElement(by);
     }
+
     public static WebElement findElement(By by, int seconds){
           new WebDriverWait(DriverManager.getDriver(),Duration.ofSeconds(seconds))
                 .withMessage(()->"Some problems while find element")
@@ -51,7 +52,7 @@ public class PageUtils {
         return getDriver().findElement(by);
     }
 
-    public boolean checkToastMessageIsCorrect(String assertMessage, String testName){
+    public static boolean checkToastMessageIsCorrect(String assertMessage, String testName){
         try{
             WebElement toastMessage = getDriver().findElement(AppiumBy.xpath("//android.widget.Toast"));
             String messageText = toastMessage.getText();
@@ -73,4 +74,20 @@ public class PageUtils {
         }
       }
     }
+
+    public static void goBackToHomeScreenOpenMenu (By findElement, By elementClick) throws InterruptedException{
+        goBackToHomeScreen();
+        for(int i =0; i< 3; i++){
+            if(isElementPresent(findElement)){
+                WebElement ele = PageUtils.findElement(findElement);
+                ele.click();
+                break;
+            }
+            else {
+                WebElement ele = PageUtils.findElement(elementClick);
+                ele.click();
+                Thread.sleep(200);
+            }
+        }
+      }
 }

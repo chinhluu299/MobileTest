@@ -14,9 +14,9 @@ public class LocalDriverImpl implements IDriver {
                 .setAppPackage("pocketv.datavtech.application")
                 .setAppActivity("com.tns.NativeScriptActivity")
                 .setAutomationName("UiAutomator2")
-                .setUdid(deviceName)
-                .setPlatformVersion("14")
-                .setDeviceName(deviceName)
+                .setUdid("emulator-5554")
+                .setPlatformVersion("11")
+                .setDeviceName("emulator-5554")
                 .setPlatformName("android")
                 .setNoReset(true);
         WebDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723/"), options);
